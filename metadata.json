@@ -1,0 +1,6 @@
+{
+  "name": "World Clock",
+  "description": "An interactive global clock with an offline dynamic dot-grid world map and daylight zone slider.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Globe boundary ring -->
+    <path
+        android:pathData="M54,30 A24,24 0 1,1 53.9,30 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:fillColor="#1A38BDF8"
+        android:strokeLineCap="round"/>
+
+    <!-- Equator reference line -->
+    <path
+        android:pathData="M30,54 L78,54"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Longitudinal meridian curves -->
+    <path
+        android:pathData="M54,30 A12,24 0 0,0 54,78"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"/>
+        
+    <path
+        android:pathData="M54,30 A12,24 0 0,1 54,78"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"/>
+
+    <!-- Clock Hour hand pointing to 2 o'clock -->
+    <path
+        android:pathData="M54,54 L66,42"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"/>
+
+    <!-- Clock Minute hand pointing to 12 o'clock -->
+    <path
+        android:pathData="M54,54 L54,38"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"/>
+
+    <!-- Glowing central hub dot -->
+    <path
+        android:pathData="M54,54 A1.5,1.5 0 1,1 53.9,54 Z"
+        android:fillColor="#F43F5E"/>
+</vector>
